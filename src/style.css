@@ -1,0 +1,53 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    overflow: hidden;
+}
+
+.canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+/* style.css */
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 10px;
+
+  }
+  
+  #closePopup {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fe4545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  #addToCart{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #45fe98;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
